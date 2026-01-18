@@ -1,1 +1,46 @@
-Nothing should be ignored based on the provided file changes. The only modified file is `homeworks/HW06/report.md`, which is a markdown source file and should not be ignored.
+# ----- Файлы ОС -----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ----- Временные файлы редакторов -----
+*~
+*.swp
+*.swo
+*.swn
+*.tmp
+*.bak
+*.orig
+
+# ----- Настройки IDE (локальные) -----
+.vscode/
+.idea/
+*.iml
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.log
+
+# ----- Jupyter Notebook -----
+.ipynb_checkpoints/
+
+# ----- Виртуальные окружения -----
+venv/
+.venv/
+env/
+.env/
+*.env
+.env.*
+!.env.example
+
+# ----- Локальные сборки/артефакты -----
+build/
+dist/
+.cache/
