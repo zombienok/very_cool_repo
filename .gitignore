@@ -1,39 +1,46 @@
-```
-# Artifacts and generated files
-homeworks/HW07/artifacts/
-
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# IDE specific
-.vscode/
-.idea/
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# OS generated files
+# ----- Файлы ОС -----
 .DS_Store
 Thumbs.db
-```
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ----- Временные файлы редакторов -----
+*~
+*.swp
+*.swo
+*.swn
+*.tmp
+*.bak
+*.orig
+
+# ----- Настройки IDE (локальные) -----
+.vscode/
+.idea/
+*.iml
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.log
+
+# ----- Jupyter Notebook -----
+.ipynb_checkpoints/
+
+# ----- Виртуальные окружения -----
+venv/
+.venv/
+env/
+.env/
+*.env
+.env.*
+!.env.example
+
+# ----- Локальные сборки/артефакты -----
+build/
+dist/
+.cache/
